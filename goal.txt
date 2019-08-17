@@ -1,0 +1,18 @@
+Please use react or vue to build a page which is connected to some of JAM public APIs that are
+showing:
+ List of songs (paginated) with thumb nail and play/pause buttond
+ Each row should have 2 options which are to like a song and to comment a song
+ Each request should return success or failure status
+
+Thumbnail | Play/Pause | Name of the song/ Name of the singer [ time ] [ like ] 
+
+
+research ui for these things..
+like button has to have a number showing how many likes there are...
+comment should show how many commentts there are.. 
+
+if you click on the comment button, it will open a comment dialog that you will be able to
+write your comment.
+
+If you click on the tweet, it will take you to the tweet and the list of response
+showing the "thread..."

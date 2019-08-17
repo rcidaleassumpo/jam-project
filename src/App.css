@@ -1,0 +1,77 @@
+body {
+  background-color: #222326;
+}
+.music-container {
+  display: flex;
+  color: #919496;
+}
+
+.flex-default {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.number-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+.number-container--active {
+  background-color: white;
+  color: darkslategrey;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.inner-container {
+  display: flex;
+}
+
+.icons {
+  height: 20px;
+  padding-right: 5px;
+}
+
+.music-list-container {
+  padding: 20px;
+}
+
+.song-info-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.song-info-container--content {
+  font-size: 12px;
+}
+.song-info-container--title {
+  padding-bottom: 5px;
+}
+
+.like-container {
+  padding: 10px;
+  cursor: pointer;
+}
+.comment-container {
+  cursor: pointer;
+}
+.font-awesome--thumbsup,
+.font-awesome--comment {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+audio::-webkit-media-controls-enclosure {
+  border-radius: 0;
+}
